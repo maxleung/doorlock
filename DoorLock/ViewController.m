@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RegViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.navigationController.navigationBar setHidden:YES];
+    UIStoryboard *reg = [UIStoryboard storyboardWithName:@"Reg" bundle:nil];
+    UIViewController* test2obj = [reg instantiateViewControllerWithIdentifier:@"Reg"];  //test2为viewcontroller的StoryboardId
+    [self.navigationController pushViewController:test2obj animated:YES];
+    NSLog(@"%@",self.navigationController);
+    
 }
 
 
