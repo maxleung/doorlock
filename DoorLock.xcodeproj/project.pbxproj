@@ -13,6 +13,8 @@
 		CEBE8D9E209ADC6D00E9F357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9D209ADC6D00E9F357 /* Assets.xcassets */; };
 		CEBE8DA1209ADC6D00E9F357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9F209ADC6D00E9F357 /* LaunchScreen.storyboard */; };
 		CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8DA3209ADC6D00E9F357 /* main.m */; };
+		CEBE8DAC209AFADA00E9F357 /* Reg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8DAA209AFADA00E9F357 /* Reg.storyboard */; };
+		CEBE8DAF209AFB4900E9F357 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8DAE209AFB4900E9F357 /* RegViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		CEBE8DA0209ADC6D00E9F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEBE8DA2209ADC6D00E9F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEBE8DA3209ADC6D00E9F357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBE8DAB209AFADA00E9F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Reg.storyboard; sourceTree = "<group>"; };
+		CEBE8DAD209AFB4900E9F357 /* RegViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
+		CEBE8DAE209AFB4900E9F357 /* RegViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +68,13 @@
 				CEBE8D97209ADC6D00E9F357 /* ViewController.h */,
 				CEBE8D98209ADC6D00E9F357 /* ViewController.m */,
 				CEBE8D9A209ADC6D00E9F357 /* Main.storyboard */,
+				CEBE8DAA209AFADA00E9F357 /* Reg.storyboard */,
 				CEBE8D9D209ADC6D00E9F357 /* Assets.xcassets */,
 				CEBE8D9F209ADC6D00E9F357 /* LaunchScreen.storyboard */,
 				CEBE8DA2209ADC6D00E9F357 /* Info.plist */,
 				CEBE8DA3209ADC6D00E9F357 /* main.m */,
+				CEBE8DAD209AFB4900E9F357 /* RegViewController.h */,
+				CEBE8DAE209AFB4900E9F357 /* RegViewController.m */,
 			);
 			path = DoorLock;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 				CEBE8DA1209ADC6D00E9F357 /* LaunchScreen.storyboard in Resources */,
 				CEBE8D9E209ADC6D00E9F357 /* Assets.xcassets in Resources */,
 				CEBE8D9C209ADC6D00E9F357 /* Main.storyboard in Resources */,
+				CEBE8DAC209AFADA00E9F357 /* Reg.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +154,7 @@
 				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
 				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
 				CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */,
+				CEBE8DAF209AFB4900E9F357 /* RegViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +175,14 @@
 				CEBE8DA0209ADC6D00E9F357 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBE8DAA209AFADA00E9F357 /* Reg.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE8DAB209AFADA00E9F357 /* Base */,
+			);
+			name = Reg.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
