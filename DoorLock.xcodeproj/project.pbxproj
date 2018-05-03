@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */; };
+		CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D98209ADC6D00E9F357 /* ViewController.m */; };
+		CEBE8D9C209ADC6D00E9F357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9A209ADC6D00E9F357 /* Main.storyboard */; };
+		CEBE8D9E209ADC6D00E9F357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9D209ADC6D00E9F357 /* Assets.xcassets */; };
+		CEBE8DA1209ADC6D00E9F357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9F209ADC6D00E9F357 /* LaunchScreen.storyboard */; };
+		CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8DA3209ADC6D00E9F357 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEBE8D91209ADC6D00E9F357 /* DoorLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBE8D97209ADC6D00E9F357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBE8D98209ADC6D00E9F357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBE8D9B209ADC6D00E9F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBE8D9D209ADC6D00E9F357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBE8DA0209ADC6D00E9F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBE8DA2209ADC6D00E9F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBE8DA3209ADC6D00E9F357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBE8D8E209ADC6D00E9F357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBE8D88209ADC6D00E9F357 = {
+			isa = PBXGroup;
+			children = (
+				CEBE8D93209ADC6D00E9F357 /* DoorLock */,
+				CEBE8D92209ADC6D00E9F357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBE8D92209ADC6D00E9F357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8D91209ADC6D00E9F357 /* DoorLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBE8D93209ADC6D00E9F357 /* DoorLock */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */,
+				CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */,
+				CEBE8D97209ADC6D00E9F357 /* ViewController.h */,
+				CEBE8D98209ADC6D00E9F357 /* ViewController.m */,
+				CEBE8D9A209ADC6D00E9F357 /* Main.storyboard */,
+				CEBE8D9D209ADC6D00E9F357 /* Assets.xcassets */,
+				CEBE8D9F209ADC6D00E9F357 /* LaunchScreen.storyboard */,
+				CEBE8DA2209ADC6D00E9F357 /* Info.plist */,
+				CEBE8DA3209ADC6D00E9F357 /* main.m */,
+			);
+			path = DoorLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBE8D90209ADC6D00E9F357 /* DoorLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBE8DA7209ADC6D00E9F357 /* Build configuration list for PBXNativeTarget "DoorLock" */;
+			buildPhases = (
+				CEBE8D8D209ADC6D00E9F357 /* Sources */,
+				CEBE8D8E209ADC6D00E9F357 /* Frameworks */,
+				CEBE8D8F209ADC6D00E9F357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorLock;
+			productName = DoorLock;
+			productReference = CEBE8D91209ADC6D00E9F357 /* DoorLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBE8D89209ADC6D00E9F357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TM;
+				TargetAttributes = {
+					CEBE8D90209ADC6D00E9F357 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEBE8D8C209ADC6D00E9F357 /* Build configuration list for PBXProject "DoorLock" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBE8D88209ADC6D00E9F357;
+			productRefGroup = CEBE8D92209ADC6D00E9F357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBE8D90209ADC6D00E9F357 /* DoorLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBE8D8F209ADC6D00E9F357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE8DA1209ADC6D00E9F357 /* LaunchScreen.storyboard in Resources */,
+				CEBE8D9E209ADC6D00E9F357 /* Assets.xcassets in Resources */,
+				CEBE8D9C209ADC6D00E9F357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBE8D8D209ADC6D00E9F357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
+				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
+				CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBE8D9A209ADC6D00E9F357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE8D9B209ADC6D00E9F357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBE8D9F209ADC6D00E9F357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE8DA0209ADC6D00E9F357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBE8DA5209ADC6D00E9F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBE8DA6209ADC6D00E9F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBE8DA8209ADC6D00E9F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taimi.opencvtext.DoorLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBE8DA9209ADC6D00E9F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taimi.opencvtext.DoorLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBE8D8C209ADC6D00E9F357 /* Build configuration list for PBXProject "DoorLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE8DA5209ADC6D00E9F357 /* Debug */,
+				CEBE8DA6209ADC6D00E9F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBE8DA7209ADC6D00E9F357 /* Build configuration list for PBXNativeTarget "DoorLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE8DA8209ADC6D00E9F357 /* Debug */,
+				CEBE8DA9209ADC6D00E9F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBE8D89209ADC6D00E9F357 /* Project object */;
+}
