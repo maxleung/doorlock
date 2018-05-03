@@ -15,6 +15,7 @@
 		CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8DA3209ADC6D00E9F357 /* main.m */; };
 		CEBE8DAC209AFADA00E9F357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8DAA209AFADA00E9F357 /* Main.storyboard */; };
 		CEBE8DAF209AFB4900E9F357 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8DAE209AFB4900E9F357 /* RegViewController.m */; };
+		CEBE8DB2209B1ECD00E9F357 /* @2x in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8DB1209B1ECD00E9F357 /* @2x */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CEBE8DAB209AFADA00E9F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEBE8DAD209AFB4900E9F357 /* RegViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
 		CEBE8DAE209AFB4900E9F357 /* RegViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
+		CEBE8DB1209B1ECD00E9F357 /* @2x */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "@2x"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		CEBE8D93209ADC6D00E9F357 /* DoorLock */ = {
 			isa = PBXGroup;
 			children = (
+				CEBE8DB0209B1EB500E9F357 /* Img */,
 				CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */,
 				CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */,
 				CEBE8D97209ADC6D00E9F357 /* ViewController.h */,
@@ -77,6 +80,14 @@
 				CEBE8DAE209AFB4900E9F357 /* RegViewController.m */,
 			);
 			path = DoorLock;
+			sourceTree = "<group>";
+		};
+		CEBE8DB0209B1EB500E9F357 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE8DB1209B1ECD00E9F357 /* @2x */,
+			);
+			path = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBE8DB2209B1ECD00E9F357 /* @2x in Resources */,
 				CEBE8DA1209ADC6D00E9F357 /* LaunchScreen.storyboard in Resources */,
 				CEBE8D9E209ADC6D00E9F357 /* Assets.xcassets in Resources */,
 				CEBE8D9C209ADC6D00E9F357 /* Reg.storyboard in Resources */,
