@@ -13,10 +13,10 @@
 
  @property (nonatomic,retain) IBOutlet UITextField *verCodeFidld;
 
+ @property (nonatomic,retain) IBOutlet UILabel *tips;
 
-- (void)textFieldDidEndEditing:(UITextField *)textField;
+@property (strong, nonatomic) NSString *phoneNum;
 
-- (void)textFieldDidBeginEditing:(UITextField *)textField;
 
 -(void)textFieldDidChangeValue:(NSNotification*)textField;
 @end

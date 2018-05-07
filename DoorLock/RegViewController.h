@@ -10,4 +10,6 @@
 
 @interface RegViewController : UIViewController
 
+@property(nonatomic,retain) IBOutlet UITextField *phoneNum;
+
 @end

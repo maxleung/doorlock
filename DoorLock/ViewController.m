@@ -12,23 +12,29 @@
 @interface ViewController ()
 
 @end
+static ViewController* RootView;
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationController.navigationBar setHidden:YES];
-    UIStoryboard *reg = [UIStoryboard storyboardWithName:@"Reg" bundle:nil];
-    UIViewController* test2obj = [reg instantiateViewControllerWithIdentifier:@"Reg"];  //test2为viewcontroller的StoryboardId
+    UIStoryboard *reg = [UIStoryboard storyboardWithName:@"MyLock" bundle:nil];
+    UIViewController* test2obj = [reg instantiateViewControllerWithIdentifier:@"MyLock"];
     [self.navigationController pushViewController:test2obj animated:YES];
-    NSLog(@"%@",self.navigationController);
-    
+    RootView = self;
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
++(void)PushStoryUIStoryboard:(NSString *)UIStoryboardName{
+     UIStoryboard *sb = [UIStoryboard storyboardWithName:UIStoryboardName bundle:nil];
+     UIViewController* uiv = [sb instantiateViewControllerWithIdentifier:UIStoryboardName];
+     [RootView.navigationController pushViewController:uiv animated:YES];
 }
 
 

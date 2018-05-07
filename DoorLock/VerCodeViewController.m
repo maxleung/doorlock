@@ -7,6 +7,7 @@
 //
 
 #import "VerCodeViewController.h"
+#import "ViewController.h"
 
 @interface VerCodeViewController ()
 
@@ -26,6 +27,8 @@
                                                object:_verCodeFidld];
     _verCodeFidld.leftView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, 0)];
     _verCodeFidld.leftViewMode = UITextFieldViewModeAlways;
+    _tips.text = [NSString stringWithFormat:@"验证码已经发送到%@手机号",_phoneNum];
+    [_verCodeFidld becomeFirstResponder];
     
 }
 
@@ -56,7 +59,19 @@
                                  
                                  };
     _verCodeFidld.attributedText = [[NSAttributedString alloc]initWithString:sender.text attributes:attributes];
-
+    if(sender.text.length>=6){
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"提示"
+                                                                       message:@"注册成功"
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {
+                                                                  [ViewController PushStoryUIStoryboard:@"MyLock"];
+                                                              }];
+        
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
     NSLog(@"%@",sender.text);
     
    

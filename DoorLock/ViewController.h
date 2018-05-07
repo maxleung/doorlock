@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
++(void)PushStoryUIStoryboard:(NSString *)UIStoryboardName;
 
 @end
 
