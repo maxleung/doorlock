@@ -16,6 +16,7 @@
 		CEBE8DAC209AFADA00E9F357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8DAA209AFADA00E9F357 /* Main.storyboard */; };
 		CEBE8DAF209AFB4900E9F357 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8DAE209AFB4900E9F357 /* RegViewController.m */; };
 		CEBE8DB2209B1ECD00E9F357 /* @2x in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8DB1209B1ECD00E9F357 /* @2x */; };
+		CEBEFA9320A015BA00CAB55E /* VerCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEFA9220A015BA00CAB55E /* VerCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		CEBE8DAD209AFB4900E9F357 /* RegViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
 		CEBE8DAE209AFB4900E9F357 /* RegViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
 		CEBE8DB1209B1ECD00E9F357 /* @2x */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "@2x"; sourceTree = "<group>"; };
+		CEBEFA9120A015BA00CAB55E /* VerCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerCodeViewController.h; sourceTree = "<group>"; };
+		CEBEFA9220A015BA00CAB55E /* VerCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +73,16 @@
 				CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */,
 				CEBE8D97209ADC6D00E9F357 /* ViewController.h */,
 				CEBE8D98209ADC6D00E9F357 /* ViewController.m */,
-				CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */,
 				CEBE8DAA209AFADA00E9F357 /* Main.storyboard */,
 				CEBE8D9D209ADC6D00E9F357 /* Assets.xcassets */,
 				CEBE8D9F209ADC6D00E9F357 /* LaunchScreen.storyboard */,
 				CEBE8DA2209ADC6D00E9F357 /* Info.plist */,
 				CEBE8DA3209ADC6D00E9F357 /* main.m */,
+				CEBEFA9120A015BA00CAB55E /* VerCodeViewController.h */,
+				CEBEFA9220A015BA00CAB55E /* VerCodeViewController.m */,
 				CEBE8DAD209AFB4900E9F357 /* RegViewController.h */,
 				CEBE8DAE209AFB4900E9F357 /* RegViewController.m */,
+				CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */,
 			);
 			path = DoorLock;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
 				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
 				CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */,
+				CEBEFA9320A015BA00CAB55E /* VerCodeViewController.m in Sources */,
 				CEBE8DAF209AFB4900E9F357 /* RegViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
