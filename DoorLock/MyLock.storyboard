@@ -17,19 +17,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5SV-cf-EEs">
-                                <rect key="frame" x="0.0" y="110" width="375" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5SV-cf-EEs">
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htJ-Hp-HxD" userLabel="new_btn">
+                                        <rect key="frame" x="335" y="13" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="VTS-LN-u2r"/>
+                                            <constraint firstAttribute="height" constant="24" id="u3Y-N8-yzT"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="ico_index_news"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gw1-hV-oVa" userLabel="person_btn">
+                                        <rect key="frame" x="20" y="13" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="JRF-79-2jF"/>
+                                            <constraint firstAttribute="height" constant="24" id="lcW-SD-SvF"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="img_person_image_big"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Gw1-hV-oVa" firstAttribute="leading" secondItem="5SV-cf-EEs" secondAttribute="leading" constant="20" id="56F-Nl-CB1"/>
+                                    <constraint firstAttribute="trailing" secondItem="htJ-Hp-HxD" secondAttribute="trailing" constant="16" id="T02-7t-htu"/>
+                                    <constraint firstItem="htJ-Hp-HxD" firstAttribute="centerY" secondItem="5SV-cf-EEs" secondAttribute="centerY" id="hdD-qC-bip"/>
+                                    <constraint firstItem="Gw1-hV-oVa" firstAttribute="top" secondItem="htJ-Hp-HxD" secondAttribute="top" id="osY-Yk-0yQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="ubX-9e-lRh"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iWL-pH-H8v" firstAttribute="trailing" secondItem="5SV-cf-EEs" secondAttribute="trailing" id="AZA-NL-lOD"/>
+                            <constraint firstItem="5SV-cf-EEs" firstAttribute="top" secondItem="iWL-pH-H8v" secondAttribute="top" id="Lpe-j9-Omp"/>
+                            <constraint firstItem="5SV-cf-EEs" firstAttribute="centerX" secondItem="iWL-pH-H8v" secondAttribute="centerX" id="jJY-YJ-mDm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iWL-pH-H8v"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GIZ-7d-TFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="309.60000000000002" y="-725.48725637181417"/>
+            <point key="canvasLocation" x="308" y="-726.38680659670172"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ico_index_news" width="20" height="20"/>
+        <image name="img_person_image_big" width="40" height="40"/>
+    </resources>
 </document>

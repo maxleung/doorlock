@@ -18,22 +18,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-nc-2mS">
-                                <rect key="frame" x="20" y="80" width="335" height="79"/>
+                                <rect key="frame" x="20" y="80" width="335.5" height="79"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+86" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMY-3Q-tqz">
-                                        <rect key="frame" x="20" y="26" width="41" height="27"/>
+                                        <rect key="frame" x="20.5" y="26" width="41" height="27"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机号码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Npq-db-kCo">
-                                        <rect key="frame" x="143.5" y="14" width="160.5" height="51"/>
+                                        <rect key="frame" x="144.5" y="14" width="160" height="51"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RcB-7Y-g7U">
-                                        <rect key="frame" x="1" y="79" width="333" height="0.0"/>
+                                        <rect key="frame" x="1" y="79" width="333.5" height="0.0"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
@@ -54,19 +54,19 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有账号？登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74e-FG-iTg">
-                                <rect key="frame" x="133" y="355" width="108" height="18"/>
+                                <rect key="frame" x="133.5" y="355" width="108" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注册" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pv-QV-NpV">
-                                <rect key="frame" x="169" y="38" width="37" height="22"/>
+                                <rect key="frame" x="169.5" y="38" width="37" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WE-Wo-fxm">
-                                <rect key="frame" x="92" y="195" width="190" height="50"/>
+                                <rect key="frame" x="92" y="195" width="191" height="50"/>
                                 <color key="backgroundColor" red="0.2901960784" green="0.29803921570000003" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Pxc-h4-on1"/>
@@ -117,36 +117,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="输入验证码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJ6-HY-Ead">
-                                <rect key="frame" x="141" y="70" width="92" height="22"/>
+                                <rect key="frame" x="141.5" y="70" width="92" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="验证码已经发送到163****2322手机号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRt-4e-gfF">
-                                <rect key="frame" x="37" y="400" width="289" height="21"/>
+                                <rect key="frame" x="37.5" y="400.5" width="288.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afe-NZ-CWv">
-                                <rect key="frame" x="0.0" y="100" width="375" height="67"/>
+                                <rect key="frame" x="0.5" y="99.5" width="375" height="67.5"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="验证码输入" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-YF-QQZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="27"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="R8k-Gs-SvI" id="EDh-wL-ZTu"/>
-                                        </connections>
-                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gUX-Yg-9Vc">
+                                        <rect key="frame" x="0.0" y="0.0" width="115.5" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Hw8-VX-ZAZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="115.5" height="27"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="验证码输入" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-YF-QQZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="115.5" height="27"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="R8k-Gs-SvI" id="EDh-wL-ZTu"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="nMD-YF-QQZ" firstAttribute="width" secondItem="Hw8-VX-ZAZ" secondAttribute="width" constant="-40" id="opN-9v-mrZ"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="nMD-YF-QQZ" firstAttribute="top" secondItem="afe-NZ-CWv" secondAttribute="top" id="1fm-J7-3nR"/>
-                                    <constraint firstItem="nMD-YF-QQZ" firstAttribute="centerX" secondItem="afe-NZ-CWv" secondAttribute="centerX" id="5ll-1z-h5C"/>
-                                    <constraint firstItem="nMD-YF-QQZ" firstAttribute="width" secondItem="afe-NZ-CWv" secondAttribute="width" id="Jhs-gv-cBS"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
