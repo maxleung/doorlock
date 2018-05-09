@@ -10,4 +10,14 @@
 
 @interface MyLockCell : UITableViewCell
 
+@property (retain, nonatomic) IBOutlet UIImageView *LockImg;
+@property (strong, nonatomic) IBOutlet UILabel *LockName;
+
+@property (strong, nonatomic) IBOutlet UILabel *Status;
+@property (strong, nonatomic) IBOutlet UILabel *OnlineStatus;
+@property (strong, nonatomic) IBOutlet UILabel *BatteryCount;
+
+@property (strong, nonatomic) IBOutlet UIImageView *BatteryIcon;
+
+
 @end

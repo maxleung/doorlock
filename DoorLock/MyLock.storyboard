@@ -118,7 +118,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico-public-battery" translatesAutoresizingMaskIntoConstraints="NO" id="kOX-db-RBf" userLabel="battery">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_lock_battery_green" translatesAutoresizingMaskIntoConstraints="NO" id="kOX-db-RBf" userLabel="battery">
                                                     <rect key="frame" x="88" y="62" width="18" height="18"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="18" id="UAQ-Zr-feh"/>
@@ -132,7 +132,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VhN-Eg-h49" userLabel="batteryCount">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_lock_online" translatesAutoresizingMaskIntoConstraints="NO" id="VhN-Eg-h49" userLabel="batteryCount">
                                                     <rect key="frame" x="148" y="55" width="20" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -150,6 +150,14 @@
                                                 <constraint firstAttribute="trailing" secondItem="8jg-0D-gmY" secondAttribute="trailing" id="y0O-6Q-a5a"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="BatteryCount" destination="hqE-6F-jZE" id="4qS-42-vQJ"/>
+                                            <outlet property="BatteryIcon" destination="kOX-db-RBf" id="Wrj-Nc-Rcv"/>
+                                            <outlet property="LockImg" destination="1Of-lq-sFA" id="sWf-1W-PHC"/>
+                                            <outlet property="LockName" destination="Ap1-Sb-uk6" id="COK-91-ARv"/>
+                                            <outlet property="OnlineStatus" destination="92I-GJ-Ttf" id="3pR-Yg-ppT"/>
+                                            <outlet property="Status" destination="8jg-0D-gmY" id="KnT-RV-zYm"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -179,8 +187,9 @@
     </scenes>
     <resources>
         <image name="btn_public_add" width="18" height="18"/>
-        <image name="ico-public-battery" width="31" height="18"/>
         <image name="ico_index_news" width="24" height="24"/>
         <image name="ico_index_personal_default" width="24" height="24"/>
+        <image name="ico_lock_battery_green" width="18" height="18"/>
+        <image name="ico_lock_online" width="18" height="18"/>
     </resources>
 </document>
