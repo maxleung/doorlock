@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE91B3E220A2CAFE00476B3A /* MyLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E120A2CAFE00476B3A /* MyLock.m */; };
 		CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */; };
 		CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D98209ADC6D00E9F357 /* ViewController.m */; };
 		CEBE8D9C209ADC6D00E9F357 /* Reg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE91B3E020A2CAFE00476B3A /* MyLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLock.h; sourceTree = "<group>"; };
+		CE91B3E120A2CAFE00476B3A /* MyLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLock.m; sourceTree = "<group>"; };
 		CEBE8D91209ADC6D00E9F357 /* DoorLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				CEBE8DAD209AFB4900E9F357 /* RegViewController.h */,
 				CEBE8DAE209AFB4900E9F357 /* RegViewController.m */,
 				CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */,
+				CE91B3E020A2CAFE00476B3A /* MyLock.h */,
+				CE91B3E120A2CAFE00476B3A /* MyLock.m */,
 				CEE31E6E20A04D56003E8399 /* MyLock.storyboard */,
 			);
 			path = DoorLock;
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE91B3E220A2CAFE00476B3A /* MyLock.m in Sources */,
 				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
 				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
 				CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */,
