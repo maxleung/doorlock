@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE91B3E220A2CAFE00476B3A /* MyLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E120A2CAFE00476B3A /* MyLock.m */; };
 		CE91B3E520A2D8C300476B3A /* MyLockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E420A2D8C300476B3A /* MyLockCell.m */; };
+		CE91B3E820A2F9E100476B3A /* MyLockDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E720A2F9E100476B3A /* MyLockDetail.m */; };
 		CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */; };
 		CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D98209ADC6D00E9F357 /* ViewController.m */; };
 		CEBE8D9C209ADC6D00E9F357 /* Reg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */; };
@@ -26,6 +27,8 @@
 		CE91B3E120A2CAFE00476B3A /* MyLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLock.m; sourceTree = "<group>"; };
 		CE91B3E320A2D8C300476B3A /* MyLockCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLockCell.h; sourceTree = "<group>"; };
 		CE91B3E420A2D8C300476B3A /* MyLockCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLockCell.m; sourceTree = "<group>"; };
+		CE91B3E620A2F9E100476B3A /* MyLockDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLockDetail.h; sourceTree = "<group>"; };
+		CE91B3E720A2F9E100476B3A /* MyLockDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLockDetail.m; sourceTree = "<group>"; };
 		CEBE8D91209ADC6D00E9F357 /* DoorLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				CE91B3E120A2CAFE00476B3A /* MyLock.m */,
 				CE91B3E320A2D8C300476B3A /* MyLockCell.h */,
 				CE91B3E420A2D8C300476B3A /* MyLockCell.m */,
+				CE91B3E620A2F9E100476B3A /* MyLockDetail.h */,
+				CE91B3E720A2F9E100476B3A /* MyLockDetail.m */,
 				CEE31E6E20A04D56003E8399 /* MyLock.storyboard */,
 			);
 			path = DoorLock;
@@ -173,6 +178,7 @@
 				CE91B3E520A2D8C300476B3A /* MyLockCell.m in Sources */,
 				CE91B3E220A2CAFE00476B3A /* MyLock.m in Sources */,
 				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
+				CE91B3E820A2F9E100476B3A /* MyLockDetail.m in Sources */,
 				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
 				CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */,
 				CEBEFA9320A015BA00CAB55E /* VerCodeViewController.m in Sources */,
