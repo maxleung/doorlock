@@ -7,6 +7,7 @@
 //
 
 #import "MyLock.h"
+#import "MyLockCell.h"
 
 @interface MyLock ()
 
@@ -16,11 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [_MyLockList setDelegate:self];
+    [_MyLockList setDataSource:self];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 
@@ -33,5 +37,19 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 10;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+  MyLockCell *cell = [tableView dequeueReusableCellWithIdentifier:@"mylockcell"];
+    cell.LockName.text =@"门锁";
+    cell.BatValue.text =@"10";
+    cell.OnlineStatus.text = @"Off";
+    [cell UpdataStatus];
+    return cell;
+}
+
+
 
 @end

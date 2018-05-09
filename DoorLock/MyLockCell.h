@@ -15,9 +15,13 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *Status;
 @property (strong, nonatomic) IBOutlet UILabel *OnlineStatus;
-@property (strong, nonatomic) IBOutlet UILabel *BatteryCount;
+@property (strong, nonatomic) IBOutlet UIImageView *OnLineIcon;
+@property (strong, nonatomic) IBOutlet UILabel *BatValue;
+@property (strong, nonatomic) IBOutlet UIImageView *BatIcon;
 
-@property (strong, nonatomic) IBOutlet UIImageView *BatteryIcon;
+
+
+-(void)UpdataStatus;
 
 
 @end
