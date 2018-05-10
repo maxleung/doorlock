@@ -8,6 +8,7 @@
 
 #import "MyLock.h"
 #import "MyLockCell.h"
+#import "MyLockDetail.h"
 
 @interface MyLock ()
 
@@ -19,7 +20,16 @@
     [super viewDidLoad];
     [_MyLockList setDelegate:self];
     [_MyLockList setDataSource:self];
-    // Do any additional setup after loading the view.
+    _LockData =[[NSMutableArray alloc]init];
+    for(int i =0;i<10;i++){
+        LockData *ld = [[LockData alloc]init];
+        ld.Status=@"安全关闭";
+        ld.LockName = [NSString stringWithFormat:@"门锁%i",i];
+        ld.BatValue = @"10";
+        ld.WifiStatus = TRUE;
+        [_LockData addObject:ld];
+    }
+    [_MyLockList reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,27 +38,36 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+     
+     if([segue.identifier isEqualToString:@"detail"]){
+         MyLockDetail *mld= segue.destinationViewController;
+         mld.LData =((MyLockCell*)sender).LData;
+     }
+
+ }
+ 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return _LockData.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-  MyLockCell *cell = [tableView dequeueReusableCellWithIdentifier:@"mylockcell"];
-    cell.LockName.text =@"门锁";
-    cell.BatValue.text =@"10";
-    cell.OnlineStatus.text = @"Off";
+    MyLockCell *cell = [tableView dequeueReusableCellWithIdentifier:@"mylockcell"];
+    LockData *obj= [_LockData objectAtIndex:indexPath.row];
+    cell.LData =  obj;
+    cell.LockName.text = obj.LockName;
+    cell.BatValue.text = obj.BatValue;
+    cell.OnlineStatus.text = obj.WifiStatus?@"On":@"Off";
+    cell.Status.text = obj.Status;
     [cell UpdataStatus];
     return cell;
 }
+
+
 
 
 

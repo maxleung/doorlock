@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LockData.h"
 
 @interface MyLockCell : UITableViewCell
 
@@ -19,7 +20,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *BatValue;
 @property (strong, nonatomic) IBOutlet UIImageView *BatIcon;
 
-
+@property (strong,nonatomic) LockData *LData;
 
 -(void)UpdataStatus;
 

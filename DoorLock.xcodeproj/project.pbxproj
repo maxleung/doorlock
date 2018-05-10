@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8F656520A42025000DB72A /* LockData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F656420A42025000DB72A /* LockData.m */; };
+		CE8F656820A436E1000DB72A /* LockLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F656720A436E1000DB72A /* LockLog.m */; };
 		CE91B3E220A2CAFE00476B3A /* MyLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E120A2CAFE00476B3A /* MyLock.m */; };
 		CE91B3E520A2D8C300476B3A /* MyLockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E420A2D8C300476B3A /* MyLockCell.m */; };
 		CE91B3E820A2F9E100476B3A /* MyLockDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3E720A2F9E100476B3A /* MyLockDetail.m */; };
@@ -24,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8F656120A41F75000DB72A /* LockData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockData.h; sourceTree = "<group>"; };
+		CE8F656420A42025000DB72A /* LockData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockData.m; sourceTree = "<group>"; };
+		CE8F656620A436E1000DB72A /* LockLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockLog.h; sourceTree = "<group>"; };
+		CE8F656720A436E1000DB72A /* LockLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockLog.m; sourceTree = "<group>"; };
 		CE91B3E020A2CAFE00476B3A /* MyLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLock.h; sourceTree = "<group>"; };
 		CE91B3E120A2CAFE00476B3A /* MyLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLock.m; sourceTree = "<group>"; };
 		CE91B3E320A2D8C300476B3A /* MyLockCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLockCell.h; sourceTree = "<group>"; };
@@ -102,6 +108,10 @@
 				CE91B3E720A2F9E100476B3A /* MyLockDetail.m */,
 				CE91B3E920A3039E00476B3A /* MyInfo.h */,
 				CE91B3EA20A3039E00476B3A /* MyInfo.m */,
+				CE8F656120A41F75000DB72A /* LockData.h */,
+				CE8F656420A42025000DB72A /* LockData.m */,
+				CE8F656620A436E1000DB72A /* LockLog.h */,
+				CE8F656720A436E1000DB72A /* LockLog.m */,
 				CEE31E6E20A04D56003E8399 /* MyLock.storyboard */,
 			);
 			path = DoorLock;
@@ -180,12 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8F656820A436E1000DB72A /* LockLog.m in Sources */,
 				CE91B3E520A2D8C300476B3A /* MyLockCell.m in Sources */,
 				CE91B3E220A2CAFE00476B3A /* MyLock.m in Sources */,
 				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
 				CE91B3E820A2F9E100476B3A /* MyLockDetail.m in Sources */,
 				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
 				CE91B3EB20A3039E00476B3A /* MyInfo.m in Sources */,
+				CE8F656520A42025000DB72A /* LockData.m in Sources */,
 				CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */,
 				CEBEFA9320A015BA00CAB55E /* VerCodeViewController.m in Sources */,
 				CEBE8DAF209AFB4900E9F357 /* RegViewController.m in Sources */,

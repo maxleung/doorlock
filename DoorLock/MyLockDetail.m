@@ -8,6 +8,7 @@
 
 #import "MyLockDetail.h"
 
+
 @interface MyLockDetail ()
 
 @end
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    LockData *ld =self.LData;
+  
+    self.LockImg.image = [UIImage imageNamed:ld.LockImg];
+    self.LockName.text = ld.LockName;
+    self.BatValue.text = ld.BatValue;
+    int i =[self.BatValue.text intValue];
+    self.BatImg.image = i>30?[UIImage imageNamed:@"ico_lock_battery_green"]:[UIImage imageNamed:@"ico_lock_battery_red"];
+    self.Status.text = ld.Status;
+    self.WiftImg.image = ld.WifiStatus?[UIImage imageNamed:@"ico_lock_online"]:[UIImage imageNamed:@"ico_lock_offline"];
+    self.WifiStatus.text =ld.WifiStatus?@"On":@"Off";
 }
 
 
@@ -37,5 +48,15 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(void)UpDateContent:(LockData *)ld{
+//    self.LData = ld;
+//    self.LockImg.image = [UIImage imageNamed:ld.LockImg];
+//    self.LockName.text = ld.LockName;
+//    self.BatValue.text = ld.BatValue;
+//    int i =[self.BatValue.text intValue];
+//    self.BatImg.image = i>30?[UIImage imageNamed:@"ico_lock_battery_green"]:[UIImage imageNamed:@"ico_lock_battery_red"];
+//    self.Status.text = ld.Status;
+//    self.WiftImg.image = ld.WifiStatus?[UIImage imageNamed:@"ico_lock_offline"]:[UIImage imageNamed:@"ico_lock_online"];
+//    self.WifiStatus.text =ld.WifiStatus?@"On":@"Off";
+}
 @end
