@@ -67,6 +67,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8F656C20A440AB000DB72A /* mylock */ = {
+			isa = PBXGroup;
+			children = (
+				CE91B3E020A2CAFE00476B3A /* MyLock.h */,
+				CE91B3E120A2CAFE00476B3A /* MyLock.m */,
+				CE91B3E320A2D8C300476B3A /* MyLockCell.h */,
+				CE91B3E420A2D8C300476B3A /* MyLockCell.m */,
+				CE91B3E620A2F9E100476B3A /* MyLockDetail.h */,
+				CE91B3E720A2F9E100476B3A /* MyLockDetail.m */,
+				CE91B3E920A3039E00476B3A /* MyInfo.h */,
+				CE91B3EA20A3039E00476B3A /* MyInfo.m */,
+				CE8F656120A41F75000DB72A /* LockData.h */,
+				CE8F656420A42025000DB72A /* LockData.m */,
+				CE8F656620A436E1000DB72A /* LockLog.h */,
+				CE8F656720A436E1000DB72A /* LockLog.m */,
+				CEE31E6E20A04D56003E8399 /* MyLock.storyboard */,
+			);
+			path = mylock;
+			sourceTree = "<group>";
+		};
 		CEBE8D88209ADC6D00E9F357 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +106,7 @@
 		CEBE8D93209ADC6D00E9F357 /* DoorLock */ = {
 			isa = PBXGroup;
 			children = (
+				CE8F656C20A440AB000DB72A /* mylock */,
 				CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */,
 				CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */,
 				CEBE8D97209ADC6D00E9F357 /* ViewController.h */,
@@ -100,19 +121,6 @@
 				CEBE8DAD209AFB4900E9F357 /* RegViewController.h */,
 				CEBE8DAE209AFB4900E9F357 /* RegViewController.m */,
 				CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */,
-				CE91B3E020A2CAFE00476B3A /* MyLock.h */,
-				CE91B3E120A2CAFE00476B3A /* MyLock.m */,
-				CE91B3E320A2D8C300476B3A /* MyLockCell.h */,
-				CE91B3E420A2D8C300476B3A /* MyLockCell.m */,
-				CE91B3E620A2F9E100476B3A /* MyLockDetail.h */,
-				CE91B3E720A2F9E100476B3A /* MyLockDetail.m */,
-				CE91B3E920A3039E00476B3A /* MyInfo.h */,
-				CE91B3EA20A3039E00476B3A /* MyInfo.m */,
-				CE8F656120A41F75000DB72A /* LockData.h */,
-				CE8F656420A42025000DB72A /* LockData.m */,
-				CE8F656620A436E1000DB72A /* LockLog.h */,
-				CE8F656720A436E1000DB72A /* LockLog.m */,
-				CEE31E6E20A04D56003E8399 /* MyLock.storyboard */,
 			);
 			path = DoorLock;
 			sourceTree = "<group>";

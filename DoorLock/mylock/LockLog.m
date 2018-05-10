@@ -8,6 +8,11 @@
 
 #import "LockLog.h"
 
+@implementation LogData
+
+@end
+
+
 @interface LockLog ()
 
 @end
@@ -16,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.LockName.text = self.NameTxt;
     // Do any additional setup after loading the view.
 }
 
@@ -36,5 +42,21 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 10;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"logcell"];
+    UILabel *time= [cell viewWithTag:100];
+    UIImageView *sticon =[cell viewWithTag:101];
+    UILabel *name = [cell viewWithTag:102];
+    UIImageView *logicon = [cell viewWithTag:103];
+    UILabel *logstatus = [cell viewWithTag:104];
+    return cell;
+};
+
+
+
 
 @end
