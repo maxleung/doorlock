@@ -191,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GIZ-7d-TFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="306.39999999999998" y="-727.28635682158927"/>
+            <point key="canvasLocation" x="-206" y="-906"/>
         </scene>
         <!--My Lock Detail-->
         <scene sceneID="5Ad-vh-srp">
@@ -437,7 +437,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWZ-O3-eud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1068" y="-727.28635682158927"/>
+            <point key="canvasLocation" x="762" y="-893"/>
         </scene>
         <!--MyInfo-->
         <scene sceneID="UFg-1X-ce4">
@@ -469,10 +469,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tjz-1T-rJm"/>
                     </view>
+                    <connections>
+                        <outlet property="img" destination="8oF-Ns-4tp" id="RP8-gY-2CG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7kN-k2-1fl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-463" y="-727"/>
+            <point key="canvasLocation" x="324" y="11"/>
         </scene>
         <!--Lock LOG-->
         <scene sceneID="M8o-rG-enw">
@@ -621,7 +624,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcT-H2-nSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1829.5999999999999" y="-727.28635682158927"/>
+            <point key="canvasLocation" x="1660" y="-894"/>
         </scene>
     </scenes>
     <resources>

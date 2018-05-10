@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyInfo : UIViewController
+
 - (IBAction)PopToMyLock:(id)sender;
 @end
