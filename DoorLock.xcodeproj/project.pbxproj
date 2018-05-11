@@ -16,6 +16,7 @@
 		CE91B3EB20A3039E00476B3A /* MyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91B3EA20A3039E00476B3A /* MyInfo.m */; };
 		CEB16B9320A57C4000CD7EB7 /* Password.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB16B9220A57C4000CD7EB7 /* Password.storyboard */; };
 		CEB16B9720A581ED00CD7EB7 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB16B9620A581ED00CD7EB7 /* SubViewController.m */; };
+		CEB16B9A20A5847800CD7EB7 /* AddPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB16B9920A5847800CD7EB7 /* AddPassword.m */; };
 		CEBE8D96209ADC6D00E9F357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */; };
 		CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D98209ADC6D00E9F357 /* ViewController.m */; };
 		CEBE8D9C209ADC6D00E9F357 /* Reg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE8D9A209ADC6D00E9F357 /* Reg.storyboard */; };
@@ -46,6 +47,8 @@
 		CEB16B9220A57C4000CD7EB7 /* Password.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Password.storyboard; sourceTree = "<group>"; };
 		CEB16B9520A581ED00CD7EB7 /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
 		CEB16B9620A581ED00CD7EB7 /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		CEB16B9820A5847800CD7EB7 /* AddPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPassword.h; sourceTree = "<group>"; };
+		CEB16B9920A5847800CD7EB7 /* AddPassword.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPassword.m; sourceTree = "<group>"; };
 		CEBE8D91209ADC6D00E9F357 /* DoorLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBE8D94209ADC6D00E9F357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEBE8D95209ADC6D00E9F357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 			children = (
 				CE26BB0F20A57072007434E1 /* Password.h */,
 				CE26BB1020A57072007434E1 /* Password.m */,
+				CEB16B9820A5847800CD7EB7 /* AddPassword.h */,
+				CEB16B9920A5847800CD7EB7 /* AddPassword.m */,
 				CEB16B9220A57C4000CD7EB7 /* Password.storyboard */,
 			);
 			path = Password;
@@ -226,6 +231,7 @@
 				CEB16B9720A581ED00CD7EB7 /* SubViewController.m in Sources */,
 				CEBE8D99209ADC6D00E9F357 /* ViewController.m in Sources */,
 				CE26BB1120A57072007434E1 /* Password.m in Sources */,
+				CEB16B9A20A5847800CD7EB7 /* AddPassword.m in Sources */,
 				CE91B3E820A2F9E100476B3A /* MyLockDetail.m in Sources */,
 				CEBE8DA4209ADC6D00E9F357 /* main.m in Sources */,
 				CE91B3EB20A3039E00476B3A /* MyInfo.m in Sources */,
