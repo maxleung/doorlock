@@ -8,6 +8,7 @@
 
 #import "MyLockDetail.h"
 #import "LockLog.h"
+#import "Password.h"
 
 
 @interface MyLockDetail ()
@@ -46,12 +47,23 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 
 */
+- (IBAction)PushToPws:(id)sender {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Password" bundle:nil];
+    Password* uiv = [sb instantiateViewControllerWithIdentifier:@"Password"];
+    uiv.LData = self.LData;
+    [self.navigationController pushViewController:uiv animated:YES];
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([segue.identifier isEqualToString:@"log"]){
         LockLog *ll = segue.destinationViewController;
         ll.NameTxt = self.LData.LockName;
     }
+    if([segue.identifier isEqualToString:@"Pws"]){
+        Password *mpws = segue.destinationViewController;
+        mpws.NameTxt =self.LData.LockName;
+    }
+
 }
 -(void)UpDateContent:(LockData *)ld{
 //    self.LData = ld;

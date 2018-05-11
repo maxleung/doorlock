@@ -9,6 +9,7 @@
 #import "MyLock.h"
 #import "MyLockCell.h"
 #import "MyLockDetail.h"
+#import "Password.h"
 
 @interface MyLock ()
 
@@ -48,7 +49,7 @@
          MyLockDetail *mld= segue.destinationViewController;
          mld.LData =((MyLockCell*)sender).LData;
      }
-
+    
  }
  
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
